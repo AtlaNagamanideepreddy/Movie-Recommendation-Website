@@ -1,21 +1,23 @@
 # Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 .env
 
-# Streamlit
-.streamlit/
+# ML / Data files
+*.pkl
+*.pbz2
+*.json
 
-# Jupyter
+# Notebooks
 .ipynb_checkpoints/
+*.ipynb
 
-# Images (if generated)
-*.jpeg
-*.png
+# Temp / reports
+VERIFICATION_REPORT.txt
+scratch.py
 
 # OS
 .DS_Store
 Thumbs.db
+
 

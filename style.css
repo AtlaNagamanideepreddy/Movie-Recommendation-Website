@@ -1,0 +1,93 @@
+/* Movie Recommender System - Enhanced Styling */
+
+/* Dark theme with movie vibe */
+.css-18e3th9 {
+    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+    padding: 2rem 1rem 10rem;
+}
+
+/* Hide default streamlit elements */
+.css-k0sv6k {
+    display: none;
+}
+
+.css-qri22k {
+    display: none;
+}
+
+/* Selectbox styling */
+.st-b7 {
+    width: 40vw;
+}
+
+/* Text styling - white and centered */
+.css-10trblm {
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.css-qrbaxs,
+.css-fg4pbf {
+    color: #ffffff;
+}
+
+/* Header and title styling */
+.css-183lzff {
+    font-size: 20px;
+    padding: 0 30px;
+    color: #ff6b6b;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Image styling with hover effect */
+img {
+    padding: 0 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(255, 107, 107, 0.3);
+}
+
+/* Button styling */
+.stButton>button {
+    background-color: #ff6b6b !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 10px 24px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3) !important;
+}
+
+.stButton>button:hover {
+    background-color: #ff5252 !important;
+    box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* Responsive design */
+@media all and (min-width: 800px) {
+    .css-183lzff {
+        font-size: 24px;
+        padding: 0 30px;
+    }
+
+    img {
+        padding: 0 20px;
+    }
+
+    .css-18e3th9 {
+        padding: 2rem 10rem 10rem;
+    }
+
+    .st-b7 {
+        width: 40vw;
+    }
+}
